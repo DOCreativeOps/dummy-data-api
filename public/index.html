@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smart Peeps Quote Test</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:900|Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+    <header class="navbar bg-primary">
+        <section class="logo">
+            <a href="/index.html"><h1 class="logo-text text-white"><i class="fa fa-glasses"></i> Smart Peeps</h1></a>
+        </section>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="/study.html" class="nav-item hidden-xs">Study</a></li>
+                <li><a href="/quiz.html" class="nav-item btn-nav bg-success">Take the Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="landing text-white">
+        <div class="container">
+            <h1>Test your knowledge of scientist quotes by taking the Smart Peeps Quote Test!</h1>
+            <p>Study up a bit or jump right into the quiz, the choice is yours.</p>
+            <a class="btn bg-primary text-white" href="/study.html">Study First <i class="fa fa-glasses"></i></a>
+            <a class="btn bg-success text-white pulse" href="/quiz.html">Take the Quiz <i class="fa fa-pencil-alt"></i></a>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector('.container').classList.add('loaded');
+        };
+    </script>
+</body>
+</html>
